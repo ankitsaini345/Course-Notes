@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--head element gives browser information about page-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+    <title>HTML5 Basics | 7 Images</title>
+  <!--
+    width only added to video element, b/c browser calcualtes height...
+    based on aspect ratio of the video
+-->  
+    <style>
+
+        video{
+            width:200px;
+        }
+    </style>
+</head>
+
+<body>
+<!--
+    - video selected from pexels.com
+    - download HD version, it's smaller. if file is larger, if user has slow connection, difficult to watch large vide
+    - video added to 'videos' 
+    - by default, video takes up entire page, horizontal scrolling
+    - use video attribute controls to show buttons
+    - HTML boolean value, true if present, if absent, false, do not set value
+    .... controls 
+    - doesn't ?? doesn't autoplay, but does loop
+-->  
+
+<video controls autoplay loop src="videos/ocean.mp4"></video>
+<!--
+    - go to caniuse.com to see which browsers and version support html element media properties
+    - Make a note under video element code line to inform user that their browser may not support videos
+-->
+Your Browser doesn't support videos
+
+<!--
+    video element media  properties:
+        - current Src
+        - current time
+        - paused
+        - playbackRate
+        - buffered
+        - duration
+        - played
+        - seekable
+        - ended
+        - autoplay
+        - loop
+        - controls
+        - volume & muted
+
+        Safari and Chrome on Desktop do not like DOM manipulation around the video tag. They will not fire the play order when the autoplay attribute is set even if the canplaythrough event has fired 
+        the DOM around the video tag has changed after initial page load.
+        (source: stackoverflow)
+    -->
+</body>
+</html>
+
+
+
+
+
+
+

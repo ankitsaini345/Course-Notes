@@ -1,0 +1,78 @@
+
+<!--
+Lesson 9 Validation, resource link: https://validator.w3.org/
+1 Error Corrected, see line 53
+Error: An img element must have an alt attribute, 
+except under certain conditions. For details, 
+consult guidance on providing text alternatives for images.
+-->
+
+<!--tell browser this in an HTML5 document, doctype declartion-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--head element gives browser information about page-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--The <title> tag defines the title of the document. 
+        The title must be text-only, and it is shown in the browser's title bar or 
+        in the page's tab.-->
+     <!--Right click, drop down, select 'Open with Live Server'-->   
+     <!--http://127.0.0.1:5500/index.html
+    127.0.0.1, local host, represent local computre, globally known
+    :5500, port # of which web server is listening
+    /index.html, file name
+    -->   
+    <title>My First Webpage</title>
+
+<style>
+    img{
+        width: 100px;
+        border-radius:50px; /* round img sharp edges*/
+        /*if you set border-radisu to 1/2 of width = round image*/
+        float: left; /*pushes img to left side, text to right thereof*/
+        margin-right: 10px;/*space between img and paragraph test */
+    
+    }
+    .username { /*target paragraph element with class='username'*/
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+    <!--img,no closing tag, cannot have child elements
+    -src, source, src represents path to image
+    -alt, alternative text
+    -->
+    <img src="astra-rai-profile-picture-twitter.jpg" alt="profile picture for twitter of Astra Rai">
+    <p class="username">@astrarai</p>
+    <p>I love learning how to code!</p>
+</body>
+</html>
+
+<!--
+   
+   Lesson 8: Inspecting Page Using Dev Tools
+
+   - Note code in script tags is injected by Live Server
+   - Hover over element, it will highlight, to the right css properties ...
+   - Can enable/disable properties, change values
+
+
+
+   Lesson 7:
+    - installed prettier to format code
+    - change settings in VSC, go to code > preferences > settings, input format on save, select
+-->
+
+
+
+
+
+
+
+
+
+

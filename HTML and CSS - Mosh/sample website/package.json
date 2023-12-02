@@ -1,0 +1,23 @@
+{
+  "name": "MyMoshify",
+  "version": "1.0.0",
+  "description": "Codewithmosh.com - The Ultimate HTML CSS Course - Final Project : My Moshify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiladNz/MyMoshify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiladNz/MyMoshify/issues"
+  },
+  "homepage": "https://github.com/MiladNz/MyMoshify#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

@@ -1,0 +1,11 @@
+.DS_Store
+
+# Certificates
+part_01_certificate.pdf
+part_02_certificate.pdf
+part_03_certificate.pdf
+
+# Node modules
+node_modules/
+.cache/
+dist/
