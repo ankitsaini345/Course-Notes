@@ -1,0 +1,3 @@
+The-Ultimate-TypeScript-Course
+	https://github.com/mahdipratama/The-Ultimate-TypeScript-Course/tree/main
+	https://github.com/ascendho/The-Ultimate-TypeScript-Course/tree/master
