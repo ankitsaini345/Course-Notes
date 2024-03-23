@@ -1,0 +1,317 @@
+Syllabus :
+
+1. Abstractions
+
+Why Are Abstractions Important?
+Network Abstractions: Remote Procedure Calls
+Spectrum of Consistency Models
+The Spectrum of Failure Models
+ 
+
+2. Non-functional System Characteristics
+
+Availability
+Reliability
+Scalability
+Maintainability
+Fault Tolerance
+ 
+
+3. Back-of-the-envelope Calculations
+
+Put Back-of-the-envelope Numbers in Perspective
+Examples of Resource Estimation
+ 
+
+4. Building Blocks
+
+Introduction to Building Blocks for Modern System Design
+ 
+
+5. Domain Name System
+
+Introduction to Domain Name System (DNS)
+How the Domain Name System Works
+ 
+
+6. Load Balancers
+
+Introduction to Load Balancers
+Global and Local Load Balancing
+Advanced Details of Load Balancers
+ 
+
+7. Databases
+
+Introduction to Databases
+Types of Databases
+Data Replication
+Data Partitioning
+Trade-offs in Databases
+ 
+
+8. Key-value Store
+
+System Design: The Key-value Store
+Design of a Key-value Store
+Ensure Scalability and Replication
+Versioning Data and Achieving Configurability
+Enable Fault Tolerance and Failure Detection
+ 
+
+9. Content Delivery Network (CDN)
+
+System Design: The Content Delivery Network (CDN)
+Introduction to a CDN
+Design of a CDN
+In-depth Investigation of CDN: Part 1
+In-depth Investigation of CDN: Part 2
+Evaluation of CDN's Design
+Quiz on CDN's Design
+ 
+
+10. Sequencer
+
+System Design: Sequencer
+Design of a Unique ID Generator
+Unique IDs with Causality
+ 
+
+11. Distributed Monitoring
+
+System Design: Distributed Monitoring
+Introduction to Distributed Monitoring
+Prerequisites of a Monitoring System
+ 
+
+12. Monitor Server-side Errors
+
+Design of a Monitoring System
+Detailed Design of a Monitoring System
+Visualize Data in a Monitoring System
+ 
+
+13. Monitor Client-side Errors
+
+Focus on Client-side Errors in a Monitoring System
+Design of a Client-side Monitoring System
+ 
+
+14. Distributed Cache
+
+System Design: The Distributed Cache
+Background of Distributed Cache
+High-level Design of a Distributed Cache
+Detailed Design of a Distributed Cache
+Evaluation of a Distributed Cache's Design
+Memcached versus Redis
+ 
+
+15. Distributed Messaging Queue
+
+System Design: The Distributed Messaging Queue
+Requirements of a Distributed Messaging Queue’s Design
+Considerations of a Distributed Messaging Queue’s Design
+Design of a Distributed Messaging Queue: Part 1
+Design of a Distributed Messaging Queue: Part 2
+Evaluation of a Distributed Messaging Queue’s Design
+Quiz on the Distributed Messaging Queue’s Design
+ 
+
+16. Pub-sub
+
+System Design: The Pub-sub Abstraction
+Introduction to Pub-sub
+Design of a Pub-sub System
+ 
+
+17. Rate Limiter
+
+System Design: The Rate Limiter
+Requirements of a Rate Limiter’s Design
+Design of a Rate Limiter
+Rate Limiter Algorithms
+Quiz on the Rate Limiter’s Design
+ 
+
+18. Blob Store
+
+System Design: A Blob Store
+Requirements of a Blob Store's Design
+Design of a Blob Store
+Design Considerations of a Blob Store
+Evaluation of a Blob Store's Design
+Quiz on the Blob Store's Design
+ 
+
+19. Distributed Search
+
+System Design: The Distributed Search
+Requirements of a Distributed Search System's Design
+Indexing in a Distributed Search
+Design of a Distributed Search
+Scaling Search and Indexing
+Evaluation of a Distributed Search's Design
+ 
+
+20. Distributed Logging
+
+System Design: Distributed Logging
+Introduction to Distributed Logging
+Design of a Distributed Logging Service
+ 
+
+21. Distributed Task Scheduler
+
+System Design: The Distributed Task Scheduler
+Requirements of a Distributed Task Scheduler's Design
+Design of a Distributed Task Scheduler
+Design Considerations of a Distributed Task Scheduler
+Evaluation of a Distributed Task Scheduler's Design
+ 
+
+22. Sharded Counters
+
+System Design: The Sharded Counters
+High-level Design of Sharded Counters
+Detailed Design of Sharded Counters
+Quiz on the Sharded Counters' Design
+ 
+
+23. Concluding the Building Blocks Discussion
+
+Wrapping Up the Building Blocks Discussion
+The RESHADED Approach for System Design
+ 
+
+24. Design YouTube
+
+System Design: YouTube
+Requirements of YouTube's Design
+Design of YouTube
+Evaluation of YouTube's Design
+The Reality Is More Complicated
+Quiz on YouTube's Design
+ 
+
+25. Design Quora
+
+System Design: Quora
+Requirements of Quora's Design
+Initial Design of Quora
+Final Design of Quora
+Evaluation of Quora’s Design
+ 
+
+26. Design Google Maps
+
+System Design: Google Maps
+Requirements of Google Maps' Design
+Design of Google Maps
+Challenges of Google Maps' Design
+Detailed Design of Google Maps
+Evaluation of Google Maps' Design
+ 
+
+27. Design a Proximity Service / Yelp
+
+System Design: Yelp
+Requirements of Yelp’s Design
+Design of Yelp
+Design Considerations of Yelp
+Quiz on Yelp's Design
+ 
+
+28. Design Uber
+
+System Design: Uber
+Requirements of Uber’s Design
+High-level Design of Uber
+Detailed Design of Uber
+Payment Service and Fraud Detection in Uber Design
+Evaluation of Uber’s Design
+Quiz on Uber's Design
+ 
+
+29. Design Twitter
+
+System Design: Twitter
+Requirements of Twitter’s Design
+High-level Design of Twitter
+Detailed Design of Twitter
+Client-side Load Balancer for Twitter
+Quiz on Twitter's Design
+ 
+
+30. Design Newsfeed System
+
+System Design: Newsfeed System
+Requirements of a Newsfeed System’s Design
+Design of a Newsfeed System
+Evaluation of a Newsfeed System’s Design
+ 
+
+31. Design Instagram
+
+System Design: Instagram
+Requirements of Instagram’s Design
+Design of Instagram
+Detailed Design of Instagram
+Quiz on Instagram’s Design
+ 
+
+32. Design a URL Shortening Service / TinyURL
+
+System Design: TinyURL
+Requirements of TinyURL's Design
+Design and Deployment of TinyURL
+Encoder for TinyURL
+Evaluation of TinyURL's Design
+Quiz on TinyURL's Design
+ 
+
+33. Design a Web Crawler
+
+System Design: Web Crawler
+Requirements of a Web Crawler's Design
+Design of a Web Crawler
+Design Improvements of a Web Crawler
+Evaluation of Web Crawler's Design
+ 
+
+34. Design WhatsApp
+
+System Design: WhatsApp
+Requirements of WhatsApp’s Design
+High-level Design of WhatsApp
+Detailed Design of WhatsApp
+Evaluation of WhatsApp’s Design
+Quiz on WhatsApp’s Design
+ 
+
+35. Design Typeahead Suggestion
+
+System Design: The Typeahead Suggestion System
+Requirements of the Typeahead Suggestion System’s Design
+High-level Design of the Typeahead Suggestion System
+Data Structure for Storing Prefixes
+Detailed Design of the Typeahead Suggestion System
+Evaluation of the Typeahead Suggestion System’s Design
+Quiz on the Typeahead Suggestion System’s Design
+ 
+
+36. Design a Collaborative Document Editing Service / Google Docs
+
+System Design: Google Docs
+Requirements of Google Docs’ Design
+Design of Google Docs
+Concurrency in Collaborative Editing
+Evaluation of Google Docs’ Design
+ 
+
+37. Spectacular Failures
+
+Introduction to Distributed System Failures
+Facebook, WhatsApp, Instagram, Oculus Outage
+AWS Kinesis Outage Affecting Many Organizations
+AWS Wide Spread Outage
